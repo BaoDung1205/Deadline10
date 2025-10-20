@@ -267,13 +267,16 @@ body {
   text-align: center;
 }
 .clients__feature-desc {
+  width: 251px;
+  height: 60px;
+  display: flex;
+  align-items: center;
   font-weight: 400;
   font-size: 14px;
   line-height: 20px;
-  letter-spacing: 0%;
+  letter-spacing: 0px;
   color: #717171;
   text-align: center;
-  margin: 0 20px 24px 20px;
 }
 .info2-slide2 {
   display: flex;
@@ -285,9 +288,6 @@ body {
   justify-content: center;
   border-radius: 8px;
   box-shadow: 0px 2px 4px 0px #abbed133;
-}
-.info2-slide2 .clients__feature-desc {
-  margin: 0 29.5px 24px 29.5px;
 }
 .info3-slide2 {
   display: flex;
@@ -553,11 +553,11 @@ body {
   line-height: 28px;
   letter-spacing: 0%;
   color: #4caf4f;
+  padding: 8px;
 }
 .arrow-btn-sec4 {
   width: 24px;
   height: 24px;
-  padding: 8px 4.41px 8px 5px;
   position: relative;
   display: flex;
   justify-content: center;
@@ -630,7 +630,8 @@ body {
   letter-spacing: 0%;
   text-align: center;
   color: #717171;
-  width: 280px;
+  width: 285px;
+  height: 84px;
 }
 .footer {
   margin-top: 94.6px;
@@ -677,7 +678,6 @@ body {
 .arrow-btn-foot {
   width: 16px;
   height: 16px;
-  padding: 5px 2.06px 5px 2.5px;
   position: relative;
   display: flex;
   justify-content: center;

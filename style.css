@@ -4,7 +4,7 @@
 body {
   margin: 0;
   width: 100%;
-  font-family: "Inter", sans-serif;
+  font-family: sans-serif;
   min-width: 1245px;
 }
 .site-header {
@@ -510,7 +510,7 @@ body {
   flex-direction: column;
   gap: 8px;
 }
-.testimonial__position {
+.testimonial__author {
   font-weight: 600;
   font-size: 20px;
   line-height: 28px;
